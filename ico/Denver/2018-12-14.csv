@@ -1,0 +1,9 @@
+Thu Dec 13 22:11:12 +0000 2018,@garcialasheras @ico_TC in part because the die sizes are limited by lithography  and Moore's law is no longer spee… https://t.co/VtDHvv4z0I,0
+Thu Dec 13 22:08:32 +0000 2018,@garcialasheras @ico_TC We've been warned for years that it will eventually be prohibitively difficult to have a sy… https://t.co/MIq0yHR866,0
+Thu Dec 13 22:06:01 +0000 2018,@garcialasheras @ico_TC For instance  if you wire the output of the glitchy NAND gate to an input of an SR flip-flo… https://t.co/xN4mAZA77Y,0
+Thu Dec 13 22:03:33 +0000 2018,@garcialasheras @ico_TC The glitches are very fast  so quite difficult to observe e.g. by inserting a logic analyze… https://t.co/xP1G7QZ8sz,0
+Thu Dec 13 21:55:08 +0000 2018,@garcialasheras @ico_TC A few FPGAs have implemented LUTs as a tree of glitch-free muxes  but that's uncommon becau… https://t.co/fgRipz6jr0,0
+Thu Dec 13 21:53:17 +0000 2018,@garcialasheras @ico_TC In synchronous designs that doesn't matter because the glitch will have resolved before the… https://t.co/MTx6VoOuuV,0
+Thu Dec 13 21:50:13 +0000 2018,@garcialasheras @ico_TC Part of the problem is most FPGAs don't have async-capable logic elements. Because the LUTs… https://t.co/gJJiSJScLv,0
+Thu Dec 13 16:13:41 +0000 2018,@garcialasheras @ico_TC Or "almost no"  or however it was that I originally phrased it.,0
+Thu Dec 13 16:11:16 +0000 2018,@garcialasheras @ico_TC That's quite interesting  yet fully consistent with my statement "few commercial chips of any kind".,0
