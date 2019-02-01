@@ -1,0 +1,86 @@
+Sun Jan 14 22:06:03 +0000 2018,NASA Awarded A Grant For Ethereum Blockchain-Related Research https://t.co/GNfFfUM1Qp,0
+Sun Jan 14 21:49:00 +0000 2018,"This allows light nodes to determine with a strong guarantee of security what the status of any Bitcoin transactio… https://t.co/LxzydVGHG2,0
+Sun Jan 14 21:48:27 +0000 2018," ..which download the block headers  verify the proof of work on the block headers  and then download only the 'br… https://t.co/Vr2ZPvEUnD,0
+Sun Jan 14 21:47:49 +0000 2018,A protocol known as 'simplified payment verification' (SPV) allows for another class of nodes to exist  called 'lig… https://t.co/YpqFSAMQ77,0
+Sun Jan 14 21:46:53 +0000 2018,"Currently  this is viable for some desktop computers and not phones  and later on in the future only businesses an… https://t.co/BqlzTbtNRC,0
+Sun Jan 14 21:44:04 +0000 2018,"A "full node" in the Bitcoin network  one that stores and processes the entirety of every block  takes up about 15… https://t.co/riFdRGfB7x,0
+Sun Jan 14 21:43:26 +0000 2018,"The Merkle tree protocol is arguably essential to long-term sustainability." #Ethereum #eth,0
+Sun Jan 14 21:42:46 +0000 2018," ..and then a change in the node above that  finally changing the root of the tree and therefore the hash of the b… https://t.co/BwxNT5lITn,0
+Sun Jan 14 21:42:09 +0000 2018,"The reason why this works is that hashes propagate upward: if a malicious user attempts to swap in a fake transact… https://t.co/oymaJvqb9G,0
+Sun Jan 14 21:41:16 +0000 2018,"The reason why this works is that hashes propagate upward: if a malicious user attempts to swap in a fake transact… https://t.co/LlcmlOKXh0,0
+Sun Jan 14 21:40:35 +0000 2018," ..a node can download only the header of a block from one source  the small part of the tree relevant to them fro… https://t.co/w98F0Ot0Ox,0
+Sun Jan 14 21:39:56 +0000 2018," ..also formed from the hash of its two children  representing the 'top' of the tree. The purpose of the Merkle tr… https://t.co/jhhkpj04Y0,0
+Sun Jan 14 21:38:18 +0000 2018,"A Merkle tree is a type of binary tree  composed of a set of nodes with a large number of leaf nodes at the bottom… https://t.co/SikD9fl8gy,0
+Sun Jan 14 21:36:24 +0000 2018,"The 'hash' of a block is actually only the hash of the block header  a roughly 200-byte piece of data that contain… https://t.co/JU6sSpvCDV,0
+Sun Jan 14 21:35:26 +0000 2018,"An important scalability feature of Bitcoin is that the block is stored in a multi-level data structure."… https://t.co/gBWGKSaiDi,0
+Sun Jan 14 21:33:27 +0000 2018,"In order for the attacker to make his blockchain the longest  he would need to have more computational power than… https://t.co/G4vCJBmQN5,0
+Sun Jan 14 21:32:51 +0000 2018,"The rule is that in a fork the longest blockchain (ie. the one backed by the largest quantity of proof of work) is… https://t.co/YFJvAeFhQF,0
+Sun Jan 14 21:32:15 +0000 2018," ..so the original blocks 270001 to 270005 do not "point" to it; thus  the original chain and the attacker's new c… https://t.co/kb8adDpOYE,0
+Sun Jan 14 21:31:04 +0000 2018,"Because the block data is different  this requires redoing the proof of work. Furthermore  the attacker's new vers… https://t.co/ooGymOAbaS,0
+Sun Jan 14 21:29:27 +0000 2018,"So instead  the attacker creates a "fork" of the blockchain  starting by mining another version of block 270000 po… https://t.co/NIRMmwuDYX,0
+Sun Jan 14 21:26:24 +0000 2018," ..with each of those blocks indirectly pointing to the transaction and thus 'confirming' it. At this point  the m… https://t.co/dO4Xpb4wQw,0
+Sun Jan 14 21:25:12 +0000 2018,"Once step (1) has taken place  after a few minutes some miner will include the transaction in a block  say block n… https://t.co/YY1ALHdQQQ,0
+Sun Jan 14 21:17:47 +0000 2018,"Since Bitcoin's underlying cryptography is known to be secure  the attacker will target the one part of the Bitcoi… https://t.co/z9fK5vPJWp,0
+Sun Jan 14 21:17:03 +0000 2018,"Incidentally  this is also the only mechanism by which BTC are issued; the genesis state contained no coins at all… https://t.co/6LmrTaolyc,0
+Sun Jan 14 21:14:57 +0000 2018,"Additionally  if any transaction has a higher total denomination in its inputs than in its outputs  the difference… https://t.co/AMzhxCYTSc,0
+Sun Jan 14 21:13:56 +0000 2018,"In order to compensate miners for this computational work  the miner of every block is entitled to include a trans… https://t.co/IFRHbI2LZD,0
+Sun Jan 14 21:13:16 +0000 2018,"At the current target of 2192  this means an average of 264 tries; in general  the target is recalibrated by the n… https://t.co/q1bqkVujCe,0
+Sun Jan 14 21:12:44 +0000 2018,"Because SHA256 is designed to be a completely unpredictable pseudorandom function  the only way to create a valid… https://t.co/sc6MNL7QyH,0
+Sun Jan 14 21:11:51 +0000 2018,"The purpose of this is to make block creation computationally "hard"  thereby preventing sybil attackers from rema… https://t.co/ZvCqTFFwmB,0
+Sun Jan 14 21:10:56 +0000 2018,"The interesting part of the block validation algorithm is the concept of "proof of work": the condition is that th… https://t.co/PaGSD4OB0M,0
+Sun Jan 14 21:07:30 +0000 2018,"Additionally  note that the order in which the miner includes transactions into the block matters; if there are tw… https://t.co/05SNEKjaei,0
+Sun Jan 14 21:06:54 +0000 2018," ..it is purely an abstraction to be remembered by the validating node and can only be (securely) computed for any… https://t.co/DoqQaF4oVw,0
+Sun Jan 14 21:06:08 +0000 2018,"Essentially  each transaction in the block must provide a state transition that is valid. Note that the state is n… https://t.co/UBhpQyAOVe,0
+Sun Jan 14 21:04:22 +0000 2018,Over time  this creates a persistent  ever-growing  "blockchain" that constantly updates to represent the latest st… https://t.co/Qhf6xS1KbP,0
+Sun Jan 14 21:02:23 +0000 2018,"The network is intended to produce roughly one block every ten minutes  with each block containing a timestamp  a… https://t.co/sVJm5hjnVg,0
+Sun Jan 14 21:00:37 +0000 2018,"Bitcoin's decentralized consensus process requires nodes in the network to continuously attempt to produce package… https://t.co/eGYgxxlmzD,0
+Sun Jan 14 20:59:15 +0000 2018,"However  with Bitcoin we are trying to build a decentralized currency system  so we will need to combine the state… https://t.co/EJ6R9RfXYa,0
+Sun Jan 14 20:58:42 +0000 2018,"If we had access to a trustworthy centralized service  this system would be trivial to implement; it could simply… https://t.co/HrTdToFJnK,0
+Sun Jan 14 20:57:52 +0000 2018,"The first output will be 11.7 BTC with Bob's address as its owner  and the second output will be the remaining 0.3… https://t.co/BPJi1g0slq,0
+Sun Jan 14 20:56:25 +0000 2018," ..say that the smallest she can get is 6+4+2=12. She then creates a transaction with those three inputs and two outputs." #Ethereum #ETH,0
+Sun Jan 14 20:54:37 +0000 2018,"The first half of the first step prevents transaction senders from spending coins that do not exist  the second ha… https://t.co/LpwgWJuQN4,0
+Sun Jan 14 20:53:45 +0000 2018," ..and one or more outputs  with each output containing a new UTXO to be added to the state. The state transition… https://t.co/KXe3kKtMUk,0
+Sun Jan 14 20:52:58 +0000 2018,"A transaction contains one or more inputs  with each input containing a reference to an existing UTXO and a crypto… https://t.co/5fb4otmoK6,1
+Sun Jan 14 20:51:31 +0000 2018,"A transaction contains one or more inputs  with each input containing a reference to an existing UTXO and a crypto… https://t.co/5fb4otmoK6,1
+Sun Jan 14 20:48:09 +0000 2018," ..with each UTXO having a denomination and an owner (defined by a 20-byte address which is essentially a cryptogr… https://t.co/7SaPFaVJDs,0
+Sun Jan 14 20:39:48 +0000 2018,"The "state" in Bitcoin is the collection of all coins (technically  "unspent transaction outputs" or UTXO) that ha… https://t.co/SOEsRB6lWG,0
+Sun Jan 14 20:31:31 +0000 2018,Ethereum forks vs bitcoin forks....  I'm behind ETC Fork  but I'll be damned if I'm gunna sell my $ZCL for $ETC.   Make me eat my words.,5
+Sun Jan 14 20:21:48 +0000 2018,"If A's account has less than $X in the first place  the state transition function returns an error. Hence  one can… https://t.co/acgALZkFs1,0
+Sun Jan 14 20:19:17 +0000 2018,"In a standard banking system  for example  the state is a balance sheet  a transaction is a request to move '$X' f… https://t.co/qEOqDXeklk,0
+Sun Jan 14 20:17:20 +0000 2018," ..where there is a 'state' consisting of the ownership status of all existing bitcoins and a 'state transition fu… https://t.co/nLvJt4ihIw,0
+Sun Jan 14 20:15:14 +0000 2018,"From a technical standpoint  the Bitcoin ledger can be thought of as a state transition system.. " #Ethereum #ETH,0
+Sun Jan 14 20:08:23 +0000 2018,"Despite the Bitcoin blockchain model's crudeness and simplicity  it has proven to be good enough  and would over t… https://t.co/sc4XzmeUCD,1
+Sun Jan 14 20:07:52 +0000 2018," ..coming up with more computational power than the entire network combined is much harder than simulating a million nodes." #Ethereum #ETH,0
+Sun Jan 14 20:07:18 +0000 2018," ..with proof of work as a mechanism through which nodes gain the right to participate in the system. While nodes… https://t.co/nIzNIh5OMt,0
+Sun Jan 14 20:05:40 +0000 2018,"The innovation provided by Satoshi is the idea of combining a very simple decentralized consensus protocol  based… https://t.co/QpVLskg2DA,0
+Sun Jan 14 20:04:37 +0000 2018,"The problem is  however  that in an anonymous setting such security margins are vulnerable to sybil attacks  where… https://t.co/B9RKIRscF9,0
+Sun Jan 14 20:03:41 +0000 2018," ..all of the protocols described were solving only half of the problem. The protocols assumed that all participan… https://t.co/tOLMyTnMLs,0
+Sun Jan 14 20:02:43 +0000 2018,"The main roadblock that all pre-Bitcoin currency protocols faced is the fact that  while there had been plenty of… https://t.co/aqvneoowew,0
+Sun Jan 14 20:00:59 +0000 2018,"In 2005  Hal Finney introduced a concept of "reusable proofs of work"  a system which uses ideas from b-money toge… https://t.co/vXkTy3pw0D,0
+Sun Jan 14 19:56:58 +0000 2018," ..but the protocols largely failed to gain traction because of their reliance on a centralized intermediary." #Ethereum #ETH,0
+Sun Jan 14 19:54:31 +0000 2018,"The anonymous e-cash protocols of the 1980s and the 1990s  mostly reliant on a cryptographic primitive known as Ch… https://t.co/A8P62puL5W,0
+Sun Jan 14 19:51:40 +0000 2018,"The concept of decentralized digital currency  as well as alternative applications like property registries  has b… https://t.co/94ejmQCDcK,0
+Sun Jan 14 19:50:09 +0000 2018," ..allowing users to create any of the systems described above  as well as many others that we have not yet imagin… https://t.co/GBwIEaIVbv,0
+Sun Jan 14 19:49:43 +0000 2018,"What Ethereum intends to provide is a blockchain with a built-in fully fledged Turing-complete programming languag… https://t.co/lNAbsajAnR,0
+Sun Jan 14 19:48:34 +0000 2018,"The logical extension of this is decentralized autonomous organizations (DAOs) - long-term smart contracts that co… https://t.co/dCfhIWuTdW,0
+Sun Jan 14 19:47:07 +0000 2018,"For example  one might have a treasury contract of the form 'A can withdraw up to X currency units per day  B can… https://t.co/L7ofudO1jz,0
+Sun Jan 14 19:46:00 +0000 2018,"Another important area of inquiry is "smart contracts" - systems which automatically move digital assets according… https://t.co/v0Ywfm7UwA,0
+Sun Jan 14 19:45:03 +0000 2018," ..non-fungible assets such as domain names ("Namecoin") as well as more advanced applications such as decentraliz… https://t.co/jXyV1rFAuT,0
+Sun Jan 14 19:44:25 +0000 2018,"Commonly cited applications include using on-blockchain digital assets to represent custom currencies and financia… https://t.co/whJ19Wa2CH,0
+Sun Jan 14 19:40:27 +0000 2018,"Satoshi's blockchain was the first credible decentralized solution. And now  attention is rapidly starting to shif… https://t.co/J8WBvzNi0R,0
+Sun Jan 14 19:38:44 +0000 2018,"There is no intrinsic way of determining from two transactions which came earlier  and for decades this stymied th… https://t.co/sjWAkJDadV,0
+Sun Jan 14 19:37:43 +0000 2018,"Bitcoin as an application can be described as a first-to-file system: if one entity has 50 BTC  and simultaneously… https://t.co/YqpPx2W6WW,0
+Sun Jan 14 19:36:50 +0000 2018,"However  there is also another  equally important  part to Satoshi's grand experiment: the concept of a proof of w… https://t.co/94gie0Bih7,0
+Sun Jan 14 19:35:40 +0000 2018,"So far  the 'bitcoin' as a currency unit has taken up the bulk of the public attention  both in terms of the polit… https://t.co/VY9AO1s5w2,0
+Sun Jan 14 19:34:19 +0000 2018,"The first is the 'bitcoin'  a decentralized peer-to-peer online currency that maintains a value without any backin… https://t.co/v8CUbYyWvh,0
+Sun Jan 14 19:32:11 +0000 2018,When Satoshi Nakamoto first set the Bitcoin blockchain into motion in January 2009  he was simultaneously introduci… https://t.co/3treQdC8j0,0
+Sun Jan 14 19:29:33 +0000 2018,Ethereum White Paper A NEXT GENERATION SMART CONTRACT &amp; DECENTRALIZED APPLICATION PLATFORM By Vitalik Buterin #Ethereum,0
+Sun Jan 14 19:21:45 +0000 2018,the #satoshi #whitepaper was made like a poem. easily tweetable in segments. made for the masses to understand.… https://t.co/jMlbNV2tz9,0
+Sun Jan 14 16:56:32 +0000 2018,https://t.co/nEcgxVsRMS    Binance accepting registrations again!  Need that coin when I need it. #ICOs… https://t.co/guR3JUKi2t,0
+Sun Jan 14 15:57:07 +0000 2018,5Tips For Finding The Next Bitcoin  Ethereum  And Ripple https://t.co/Bfs9n4i5VJ https://t.co/fH8U4ja0cA,0
+Sun Jan 14 13:21:57 +0000 2018,#bitconnect Man  if you won't even listen to Charlie or Vitalik   then you're on your own. https://t.co/98uqqUvHR8,0
+Sun Jan 14 12:27:47 +0000 2018,Ethereum forks vs bitcoin forks....  I'm behind ETC Fork  but I'll be damned if I'm gunna sell my $ZCL for $ETC.   Make me eat my words.,5
+Sun Jan 14 09:45:03 +0000 2018,Ethereum forks vs bitcoin forks....  I'm behind ETC Fork  but I'll be damned if I'm gunna sell my $ZCL for $ETC.   Make me eat my words.,5
+Sun Jan 14 03:40:00 +0000 2018,Ethereum forks vs bitcoin forks....  I'm behind ETC Fork  but I'll be damned if I'm gunna sell my $ZCL for $ETC.   Make me eat my words.,5
+Sun Jan 14 03:39:39 +0000 2018,Ethereum forks vs bitcoin forks....  I'm behind ETC Fork  but I'll be damned if I'm gunna sell my $ZCL for $ETC.   Make me eat my words.,5
+Sun Jan 14 03:38:11 +0000 2018,Ethereum forks vs bitcoin forks....  I'm behind ETC Fork  but I'll be damned if I'm gunna sell my $ZCL for $ETC.   Make me eat my words.,5
