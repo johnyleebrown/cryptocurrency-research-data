@@ -1,5 +1,3 @@
-# years-of-crypto-data
+Parsed crypto tags from twitter as part of the research.
 
-Parsed crypto tags from twitter
-
-Format: [date][tweet][retweets]
+Format: [date][tweet][retweets].
